@@ -6,12 +6,8 @@ describe('samsan/react', () => {
     expect(react.extends[0]).toMatch(/babel\.js/)
   })
 
-  it('should include react plugins', () => {
-    expect(react.plugins).toContain('react')
-  })
-
-  it('should incldue default rules for react', () => {
-    expect(typeof react.rules).toBe('object')
+  it('should extends eslint-config-standard-react', () => {
+    expect(react.extends[1]).toMatch(/eslint-config-standard-react\.js/)
   })
 
   it('should have all rules syntax correct', () => {
