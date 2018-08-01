@@ -7,7 +7,7 @@ describe('samsan/react', () => {
   })
 
   it('should extends eslint-config-standard-react', () => {
-    expect(react.extends[1]).toMatch(/eslint-config-standard-react\.js/)
+    expect(react.extends[1]).toMatch(/eslint-config-standard-react\/index\.js/)
   })
 
   it('should have all rules syntax correct', () => {

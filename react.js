@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
     './babel',
-    'eslint-standard-react'
+    'eslint-config-standard-react'
   ].map(require.resolve)
 }
