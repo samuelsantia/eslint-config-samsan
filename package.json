@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-samsan",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Eslint shareable config for projects",
   "main": "node.js",
   "author": "Samuel Santiago <samuelsantia@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^9.0.0",
     "eslint": "^4.19.1",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
@@ -17,6 +17,7 @@
   "dependencies": {
     "eslint-config-standard": "^11.0.0",
     "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0"
   },
   "peerDependencies": {
@@ -26,7 +27,7 @@
     "eslint-plugin-standard": "^3.1.0"
   },
   "optionalDependencies": {
-    "babel-eslint": "^8.2.3"
+    "babel-eslint": "^9.0.0"
   },
   "scripts": {
     "test": "jest"
